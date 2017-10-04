@@ -13,9 +13,9 @@ public class Problema {
 		System.out.println("Vamos a calcular el area y el perimetro de la figura propuesta");
 		System.out.println("Perietro:");
 		pc=c1.perimetro()-c1.getLado();
-		pt=t1.perimetro()-((cin1.getRadio()*2)+cin2.getRadio()*2);
+		pt=t1.perimetro()-((cin1.getRadio()*2)+(cin2.getRadio()*2)+c1.getLado());
 		pcin1=cin1.perimetro()/2;
-		pcin2=cin2.perimetro()*(3/4);
+		pcin2=cin2.perimetro()*0.75;
 		p=pc+pt+pcin1+pcin2;
 		System.out.println(p);
 		
@@ -23,7 +23,7 @@ public class Problema {
 		ac=c1.area();
 		at=t1.area();
 		acin1=cin1.area()/2;
-		acin2=cin2.area()*(3/4);
+		acin2=cin2.area()*0.75;
 		a=ac+at+acin1+acin2;
 		System.out.println(a);
 

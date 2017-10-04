@@ -1,6 +1,6 @@
 package figuras;
 
-public class Triangulo {
+public class Triangulo extends Figura {
 	private double base;
 	private double altura;
 	
