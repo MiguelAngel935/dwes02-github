@@ -5,10 +5,10 @@ public class Problema {
 		// TODO Auto-generated method stub
 		double p,a, pc, pt, pcin1,pcin2, ac, at, acin1, acin2;
 		
-		Cuadrado c1= new Cuadrado(4.2);
-		Triangulo t1= new Triangulo(8, 15);
-		Circunferencia cin1= new Circunferencia(4.8);
-		Circunferencia cin2= new Circunferencia (1.5);
+		Cuadrado c1= new Cuadrado("Cuadrado", "Rojo", 4.2);
+		Triangulo t1= new Triangulo("Triangulo", "Verde", 8, 15);
+		Circunferencia cin1= new Circunferencia("Circulo1", "Azul", 4.8);
+		Circunferencia cin2= new Circunferencia ("Circulo2", "Amarillo", 1.5);
 		
 		System.out.println("Vamos a calcular el area y el perimetro de la figura propuesta");
 		System.out.println("Perietro:");

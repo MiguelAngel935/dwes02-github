@@ -1,11 +1,12 @@
 package figuras;
 
-public class Cuadrado {
+public class Cuadrado extends Figura {
 
 	private double lado;
 	
 	
-	public Cuadrado(double lado){
+	public Cuadrado(String titulo, String color, double lado){
+		super(titulo, color);
 		this.lado=lado;
 		
 	}
@@ -23,7 +24,7 @@ public class Cuadrado {
 
 	@Override
 	public String toString() {
-		return "Cuadrado [lado=" + lado + "]";
+		return super.toString() +"Cuadrado [lado=" + lado + "]";
 	}
 	public double perimetro() {
 		return lado*4;
